@@ -1,0 +1,12 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: openarabic
+  namespace: flux-system
+spec:
+  interval: 30s
+  type: oci
+  url: oci://registry.digitalocean.com/openarabic/open-arabic-helm
+  secretRef:
+    name: registry-credentials

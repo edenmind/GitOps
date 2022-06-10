@@ -7,6 +7,6 @@ metadata:
 spec:
   interval: 30s
   type: oci
-  url: oci://registry.digitalocean.com/openarabic/
+  url: oci://registry.digitalocean.com/openarabic/open-arabic-helm
   secretRef:
     name: registry-credentials

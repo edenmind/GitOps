@@ -14,5 +14,3 @@ spec:
         name: openarabic
         namespace: flux-system
       interval: 1m
-  values:
-    replicaCount: 2

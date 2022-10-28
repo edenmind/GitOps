@@ -1,8 +1,12 @@
-# Flux
+# GitOps
 
-## Installation
+This repository contains the GitOps configuration for the [OpenArabic project](https://github.com/edenmind/OpenArabic).
+
+## Flux
 
 Flux has been installed using: <https://fluxcd.io/docs/get-started/>
+
+### Good to know
 
 ```bash title="Export the GITHUB_TOKEN"
 export GITHUB_TOKEN=token
